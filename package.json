@@ -1,0 +1,31 @@
+{
+		"name": "grunt-setup",
+		"version": "0.0.1",
+		"description": "learning grunt",
+		"main": "Gruntfile.js",
+		"scripts": {
+				"test": "grunt"
+		},
+		"author": "",
+		"license": "ISC",
+		"devDependencies": {
+				"coffee": "^5.1.0",
+				"express": "^4.16.3",
+				"grunt": "^1.0.3",
+				"grunt-aws": "^0.6.2",
+				"grunt-contrib-coffee": "^2.0.0",
+				"grunt-contrib-cssmin": "^3.0.0",
+				"grunt-contrib-htmlmin": "^3.0.0",
+				"grunt-contrib-pug": "^2.0.0",
+				"grunt-contrib-stylus": "^1.2.0",
+				"pug": "^2.0.3",
+				"stylus": "^0.54.5"
+		},
+		"dependencies": {
+				"grunt-contrib-concat": "^1.0.1",
+				"grunt-contrib-jshint": "^2.0.0",
+				"grunt-contrib-uglify": "^4.0.0",
+				"grunt-contrib-watch": "^1.1.0",
+				"request": "^2.88.0"
+		}
+}
